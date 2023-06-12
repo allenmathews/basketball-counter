@@ -1,6 +1,7 @@
 body {
     margin: 0;
     text-align: center;
+    background-color: blue;
 }
 
 .container {
@@ -11,4 +12,8 @@ body {
 #main {
     display: flex;
     justify-content: space-around;
+}
+
+#result {
+    color: #F94F6D;
 }
