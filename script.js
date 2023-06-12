@@ -9,3 +9,9 @@ function plusone() {
     score = guest + 1;
     score.textContent = "Score: " + score;
 }
+
+function plustwo() {
+    score = guest + 1;
+    score.textContent = "Score: " + score;
+
+}
