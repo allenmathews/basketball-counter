@@ -7,11 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Basketball counter</title>
-
 </head>
 
 <body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <h2 id="homeScore">0</h2>
+            <button id="home-btn-1" onclick="incrementHomeOne()">+1</button>
+            <button id="home-btn-2" onclick="incrementHomeTwo()">+2</button>
+            <button id="home-btn-3" onclick="incrementHomeThree()">+3</button>
 
+        </div>
+        <div>
+            <h3>Guest</h3>
+            <h2 id="guestScore">0</h2>
+            <button id="guest-btn-1" onclick="incrementGuestOne()">+1</button>
+            <button id="guest-btn-2" onclick="incrementGuestTwo()">+2</button>
+            <button id="guest-btn-3" onclick="incrementGuestThree()">+3</button>
+        </div>
+        <!-- <span style="text-align: center"></span> -->
+    </div>
 </body>
 <script src="./script.js"></script>
 

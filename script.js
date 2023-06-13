@@ -1,17 +1,17 @@
-let guest = 0;
-let home = 0;
-document.getElementById('guest').textContent = guest;
-document.getElementById('home').textContent = home;
+let homeScoreEl = document.getElementById('homeScore')
+let homeScore = 0;
 
-let score = document.getElementById('score')
-
-function plusone() {
-    score = guest + 1;
-    score.textContent = "Score: " + score;
+function incrementHomeOne() {
+    homeScore += 1;
+    homeScoreEl.textContent = homeScore;
 }
 
-function plustwo() {
-    score = guest + 1;
-    score.textContent = "Score: " + score;
+function incrementHomeTwo() {
+    homeScore += 2;
+    homeScoreEl.textContent = homeScore;
+}
 
+function incrementHomeThree() {
+    homeScore += 3;
+    homeScoreEl.textContent = homeScore;
 }
