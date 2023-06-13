@@ -33,3 +33,8 @@ function incrementGuestThree() {
     guestScore += 3;
     guestScoreEl.textContent = guestScore;
 }
+
+function resetScore() {
+    guestScoreEl.textContent = 0;
+    homeScoreEl.textContent = 0;
+}

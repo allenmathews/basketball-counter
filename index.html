@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <div>
+        <div class="homeSection">
             <h3>HOME</h3>
             <h2 id="homeScore">0</h2>
             <button id="home-btn-1" onclick="incrementHomeOne()">+1</button>
@@ -19,15 +19,18 @@
             <button id="home-btn-3" onclick="incrementHomeThree()">+3</button>
 
         </div>
-        <div>
+        <div class="guestSection">
             <h3>GUEST</h3>
             <h2 id="guestScore">0</h2>
             <button id="guest-btn-1" onclick="incrementGuestOne()">+1</button>
             <button id="guest-btn-2" onclick="incrementGuestTwo()">+2</button>
             <button id="guest-btn-3" onclick="incrementGuestThree()">+3</button>
         </div>
+        <br>
         <!-- <span style="text-align: center"></span> -->
     </div>
+    <button id="reset" onclick="resetScore()">RESET</button>
+
 </body>
 <script src="./script.js"></script>
 
