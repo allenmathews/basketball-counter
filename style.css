@@ -1,6 +1,12 @@
 body {
     margin: 0;
     text-align: center;
+    background-color: #1B244A;
+}
+
+h3 {
+    color: aliceblue;
+    font-size: 30px;
 }
 
 .container {
@@ -10,6 +16,9 @@ body {
 
 button {
     background: none;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
 }
 
 #homeScore {
